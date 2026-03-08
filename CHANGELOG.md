@@ -2,6 +2,12 @@
 
 All notable changes to this tap will be documented in this file.
 
+## [0.4.1] - 2026-07-16
+
+### Changed
+
+- Updated formula to agentctl v0.4.1 — adds enhanced ignore patterns for hub validation and generation
+
 ## [0.4.0] - 2026-07-16
 
 ### Changed
