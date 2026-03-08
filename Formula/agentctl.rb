@@ -1,16 +1,16 @@
 class Agentctl < Formula
   desc "CLI for agent hub validation, index generation, and skill management"
   homepage "https://github.com/geronimo-iia/agentctl"
-  version "0.2.0"
+  version "0.4.0"
   license "MIT OR Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/geronimo-iia/agentctl/releases/download/v0.2.0/aarch64-apple-darwin.tar.gz"
-      sha256 "5a33679149fbf66e3e6223dc4c4453449aa55758fc35fdb7b704233a7a7c53b5"
+      url "https://github.com/geronimo-iia/agentctl/releases/download/v0.4.0/aarch64-apple-darwin.tar.gz"
+      sha256 "df6ae91cca5eb7d85d98153040dd5c53ff17f9d233427650789fb92ed869e559"
     else
-      url "https://github.com/geronimo-iia/agentctl/releases/download/v0.2.0/x86_64-apple-darwin.tar.gz"
-      sha256 "f955b48db95c34be3d7f8bb02b4cfbe5e98966322b63fcf42b69b13df6114948"
+      url "https://github.com/geronimo-iia/agentctl/releases/download/v0.4.0/x86_64-apple-darwin.tar.gz"
+      sha256 "8e6380b7e5f4935ed6f42017ff27dbe4f7e403bb314c95fe4678869eba6f80f3"
     end
   end
 

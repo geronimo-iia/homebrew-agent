@@ -2,6 +2,12 @@
 
 All notable changes to this tap will be documented in this file.
 
+## [0.4.0] - 2026-07-16
+
+### Changed
+
+- Updated formula to agentctl v0.4.0 — adds `config init/show/path/get/set` subcommands and skill install fixes
+
 ## [0.2.0] - 2026-07-15
 
 ### Changed
