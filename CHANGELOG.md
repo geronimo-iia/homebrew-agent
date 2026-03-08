@@ -1,0 +1,16 @@
+# Changelog
+
+All notable changes to this tap will be documented in this file.
+
+## [0.2.0] - 2026-07-15
+
+### Changed
+
+- Switch to pre-built binaries from GitHub Releases — no longer requires Rust to install
+- Install time reduced from ~5 minutes (compile) to seconds (binary download)
+
+## [0.1.0] - 2026-07-14
+
+### Added
+
+- Initial formula for `agentctl` — builds from source via `cargo install`
