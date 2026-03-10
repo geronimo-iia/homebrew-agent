@@ -2,6 +2,12 @@
 
 All notable changes to this tap will be documented in this file.
 
+## [0.5.1] - 2026-03-10
+
+### Changed
+
+- Updated formula to agentctl v0.5.1 — adds `--force` flag to `hub refresh` command for cache bypass
+
 ## [0.5.0] - 2026-01-16
 
 ### Changed
