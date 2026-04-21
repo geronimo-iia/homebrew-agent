@@ -1,29 +1,16 @@
-# homebrew-agent
+# ⚠️ Archived — use [homebrew-tap](https://github.com/geronimo-iia/homebrew-tap) instead
 
-Homebrew tap for [agentctl](https://github.com/geronimo-iia/agentctl) — CLI for agent hub validation, index generation, and skill management.
+This tap has moved to [geronimo-iia/homebrew-tap](https://github.com/geronimo-iia/homebrew-tap),
+which hosts formulae for all geronimo-iia tools.
 
-Installs pre-built binaries — no Rust toolchain required.
+## Migrate
 
-## Install
-
-```sh
-brew tap geronimo-iia/agent
+```bash
+brew untap geronimo-iia/agent
+brew tap geronimo-iia/tap
 brew install agentctl
 ```
 
-## Verify
+---
 
-```sh
-agentctl --version
-```
-
-## Update
-
-```sh
-brew update
-brew upgrade agentctl
-```
-
-## License
-
-MIT — see [LICENSE](LICENSE).
+*This repository is archived and will not receive updates.*
